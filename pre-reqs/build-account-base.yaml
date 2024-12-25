@@ -289,7 +289,7 @@ Resources:
             
             cfr.send(event, context, cfr.SUCCESS, {teamPassword: password}, resID)
           }
-      Runtime: "nodejs12.x"
+      Runtime: "nodejs20.x"
       Timeout: "30"
 
   GeneratePassword:
